@@ -118,7 +118,8 @@ public class CheckAccount {
             }
 
         } catch (IOException e) {
-            System.out.println("3"); //error
+            System.out.println("3");
+            System.out.println(e);//error
 
         }
 
